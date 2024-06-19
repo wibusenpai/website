@@ -1,0 +1,80 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+    color: #151515;
+}
+
+.header-img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header-img .content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#map-container {
+    display: flex;
+    justify-content: center;
+}
+
+#map {
+    height: 400px;
+    width: 50%;
+}
+
+.about-section {
+    text-align: left; 
+    margin: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.gallery img {
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    margin: 30px;
+}
+
+.reviews {
+    margin: 20px;
+}
+
+.review {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+.review img {
+    width: 19px; 
+    margin: 10px;
+}
+
+.review-form {
+    margin: 20px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+}

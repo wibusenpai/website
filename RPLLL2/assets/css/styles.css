@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background: #fafafa;
+	color: #151515;
+}
+
+a{
+	text-decoration: none;
+}
+
+title{
+	font-size: 150px;
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background: url('../../img/bgblur.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+nav,
+.bottom {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem;
+	position: relative;
+}
+
+hr {
+    height: 10px;
+    color: #151515;
+    background-color: #151515;
+    border: none;
+    width: 200px;
+    border-radius: 7px;
+    margin: 0 auto;
+    /* Center the hr */
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.logo a{
+	color: #ffffff;
+	font-size: 2rem;
+}
+
+.btn{
+	padding: 0.7rem 2rem;
+	background: #151515;
+	color: #d9d9d9;
+	font-weight: 500;
+	border-radius: 50px;
+	transition: .3s;
+}
+
+.btn:hover{
+	background: #d9d9d9;
+	color: #151515;
+}
+
+.title{
+	margin: auto auto;
+	font-size: 5rem;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #ffffff;
+}
+
+.date{
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.date span{
+	font-size: 1.5rem;
+}
+
+.social{
+	display: flex;
+	list-style: none;
+	width: 300px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.social li a{
+	color: #ffffff;
+}
+
+/* card */
+
+.card{
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.card img{
+	border-radius: 10px 10px 0 0;
+	height: 200px;
+	object-fit: cover;
+}
+
+.card-body{
+	padding: 25px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.btn-primary{
+	border-radius: 50px;
+	width: 120px;
+}
+
+.btn-primary:hover{
+	background-color: black;
+	border: none;
+}
+
+h5{
+	font-style: bold;
+}
+
+/* Footer Section */
+
+.footer {
+	padding: 20px;
+	text-align: center;
+}
